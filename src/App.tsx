@@ -13,7 +13,7 @@ import Card from './components/Card';
 import {UserDetails} from './types';
 import SearchBar from './components/SearchBar';
 
-const API_TOKEN = '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';
+const API_TOKEN = '<YOUR_GITHUB_API_TOKEN>';
 const App = () => {
   const [searchText, setSearchText] = useState<string>('');
   const [userData, setUserData] = useState<Array<any>>([]);
